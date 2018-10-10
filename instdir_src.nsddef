@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file was created by NSISDialogDesigner 1.4.2.0
+http://coolsoft.altervista.org/nsisdialogdesigner
+Do not edit manually!
+-->
+<Dialog Name="instdir_src" Title="Choose Install Location" Subtitle="Choose the folder in which to install ${Name}">
+  <Label Name="Label2" Location="12, 173" Size="426, 47" Text="Space required: $space_required$\r$\nSpace available: $space_available" TabIndex="0" />
+  <GroupBox Name="GroupBox1" Location="12, 97" Size="426, 73" Text="Destination Folder" Font="Microsoft Sans Serif, 8.25pt" TabIndex="1">
+    <DirRequest Name="InstDirRequet" Location="15, 30" Size="405, 20" Text="$INSTDIR" TabIndex="0" />
+  </GroupBox>
+  <Label Name="Label1" Location="12, 12" Size="426, 71" Text="Setup will install ${Name} in the following folder,$\r$\nTo install in a different folder, click ... and select another folder.$\r$\nClick Next to continue." TabIndex="2" />
+</Dialog>
