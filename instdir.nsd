@@ -4,6 +4,7 @@
 ; from instdir_src.nsddef
 ; and modified manually
 ; =========================================================
+!include "FileFunc.nsh"
 !include browseforfolder.nsh
 ; handle variables
 Var hCtl_instdir
